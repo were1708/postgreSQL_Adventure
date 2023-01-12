@@ -1,0 +1,1 @@
+CREATE INDEX ThingFinder ON Things(initialRoomID, thingKind);
