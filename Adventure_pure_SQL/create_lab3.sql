@@ -1,6 +1,3 @@
--- CSE 180 Fall 2022 Lab3 create
-
-
 DROP SCHEMA lab3 CASCADE;
 CREATE SCHEMA lab3;
  
