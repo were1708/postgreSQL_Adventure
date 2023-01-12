@@ -1,6 +1,3 @@
--- CSE 180 Fall 2022 Lab4 schema creation file
-
--- Following two lines are not needed in your solution.
 DROP SCHEMA Lab4 CASCADE;
 CREATE SCHEMA Lab4;
  
@@ -96,5 +93,3 @@ CREATE TABLE Battles (
 	FOREIGN KEY (characterMemberID, characterRole) REFERENCES Characters(memberID, role),
 	FOREIGN KEY (monsterID) REFERENCES Monsters
 ); 
--- NOT NULL constraints for characterBattlePoints and monsterBattlePoints have been added, 
--- as described in Lab4 pdf.
